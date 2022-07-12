@@ -1,0 +1,9 @@
+@keyframes animaChangeGlass {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 150px;
+    }
+}
+

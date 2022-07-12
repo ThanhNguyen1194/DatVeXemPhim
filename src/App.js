@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import BaiTapBookingTicket from './BaiTapRedux/BaiTapBookingTicket/BaiTapBookingTicket';
+// import BaiTapGameXucXac from './GameXucXac/BaiTapGameXucXac';
+// import ExerciseCar from './props/ChonXe/ExerciseCar';
+// import BaiTapGioHangRedux from './GioHangRedux/BaiTapGioHangRedux'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid p-0">
+      {/* <BaiTapGioHangRedux/> */}
+      {/* <BaiTapGameXucXac/> */}
+      <BaiTapBookingTicket/>
     </div>
   );
 }
